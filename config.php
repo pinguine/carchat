@@ -5,3 +5,4 @@ $username = 'lo2kk';
 $password = 'iPjaUZo5';
 $database = 'lo2kk';
 $hostname = 'localhost';
+$test = 'ok';
