@@ -1,10 +1,10 @@
 
 <?php 
-	echo "Twoj adres IP to:".$_SERVER['REMOTE_ADDR']; //z tego korzystam gigachad
-	echo "<br />Twoja przegladarka to:".$_SERVER['HTTP_USER_AGENT']; 
+    echo "Twoj adres IP to:".$_SERVER['REMOTE_ADDR']; //z tego korzystam gigachad
+    echo "<br />Twoja przegladarka to:".$_SERVER['HTTP_USER_AGENT']; 
 	
 	
-require_once "config.php";
+    require_once "config.php";
 	
 	
 	$mysqli = new mysqli($hostname,$username, $password,$database);
@@ -27,7 +27,7 @@ require_once "config.php";
    	
  /*	global $REMOTE_ADDR;
 	$time_limit = 10; // seconds
-	$check = mysql_query(“SELECT * FROM protect WHERE id=‘0’”);
+	$check = mysql_query(ï¿½SELECT * FROM protect WHERE id=ï¿½0ï¿½ï¿½);
 	$check_ip = mysql_fetch_array($check);
 	if(($check_ip[ip] == $REMOTE_ADDR) && ((time() - $check_ip[time]) < $time_limit))
 	{
@@ -42,7 +42,7 @@ require_once "config.php";
    	
    	/*
    	$time = time();
-   	$change_protect = mysql_query(“UPDATE protect SET ip=’$REMOTE_ADDR’, time=’$time’ WHERE id=‘0’”);
+   	$change_protect = mysql_query(ï¿½UPDATE protect SET ip=ï¿½$REMOTE_ADDRï¿½, time=ï¿½$timeï¿½ WHERE id=ï¿½0ï¿½ï¿½);
    	*/
    	
    	
